@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lexend+Tera:wght@100..900&family=Pacifico&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+
+header {
+    background-color: rgb(231, 167, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 30px;
+}
+.header-list {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-item {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+/* End Header */
+
+/* Welcome Page */
+.start-image {
+    margin-top: 2px;
+    background-image: url('ryparis-images/hero-image.png');
+    width: 100vw;
+    height: 67vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-text {
+    display: block;
+    margin-bottom: 40px;
+    background-color: white;
+    font-size: 1.75rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding: 8px;
+}
+.content {
+    margin-inline: 68px;
+}
+
+.txt {
+    margin-left: 115px;
+}
+.content h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.content p {
+    font-family: "Roboto", sans-serif;
+}
+.con-1img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con-1txt {
+    margin-block: 15px;
+    margin-inline: -65px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+}
+.content2 {
+    background-color: rgb(219, 223, 233);
+    padding-inline: 68px;
+}
+.content2 h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+.content2 p {
+    font-family: "Roboto", sans-serif;
+}

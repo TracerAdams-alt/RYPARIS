@@ -1,0 +1,23 @@
+
+@keyframes example {
+    0% {
+        background-color: purple;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    color: blue;
+    background-color: purple;
+    animation: example 4s infinite;
+}
