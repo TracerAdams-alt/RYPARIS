@@ -11,8 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 120px;
-    padding-left: 30px;
+    padding-inline: 120px;
 }
 .header-list {
     width: 40%;
@@ -52,6 +51,7 @@ header {
 
 .txt {
     margin-left: 115px;
+    font-family: "Roboto", sans-serif;
 }
 .content h2 {
     font-family: "Roboto", sans-serif;
@@ -87,4 +87,78 @@ header {
 }
 .content2 p {
     font-family: "Roboto", sans-serif;
+}
+.con-2img {
+    display: flex;
+    justify-content: space-evenly;
+}
+.con-2txt {
+    margin-block: 15px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+}
+.textimg {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.textimg p {
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    max-width: 170px;
+    font-size: .8rem;
+}
+.textimg img {
+    display: block;
+}
+
+.content3 {
+    background-color: white;
+    padding-inline: 68px;
+}
+.content3 img {
+    padding: 7px;
+    background-color: rgb(219, 223, 233);
+}
+.content3 h2 {
+    margin-top: 50px;
+}
+.textimg2 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.textimg2 p {
+    padding: 7px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: .8rem;
+}
+footer {
+    background-color: rgb(231, 167, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+    padding-inline: 120px;
+    font-family: "Roboto", sans-serif;
+    font-size: .7rem;
+}
+.flink-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 30px;
+}
+.circa {
+    font-size: 1rem;
 }
