@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lexend+Tera:wght@100..900&family=Pacifico&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+
+header {
+    background-color: rgb(231, 167, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 120px;
+}
+.header-list {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-item {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.burger-image {
+    background-image: url('ryparis-images/bengal-burger.png');
+    width: 100vw;
+    height: 67vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-text {
+    display: block;
+    margin-bottom: 40px;
+    background-color: white;
+    font-size: 1.75rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding: 8px;
+}
+h2 {
+    display: block;
+    padding-top: 13px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.hero-footer {
+    background-color: rgb(219, 223, 233);
+    padding-left: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.l1 {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 13px;
+    font-weight: 700;
+}
+.l2 {
+    width: 22.25vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 13px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.bengal {
+    text-align: center;
+    background-color: white;
+}
+
+.bengal h1 {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 60px;
+}
+.stars {
+    color: rgba(0, 0, 0, 0.659);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 25px;
+}
+.save {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    background-color: rgb(153, 49, 53);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.print {
+    margin-left: 10px;
+    padding: 4px;
+    border: solid 1px black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.parag {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: rgb(219, 223, 233);
+    color: rgba(0, 0, 0, 0.625);
+    padding: 40px;
+}
+.ingredients {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Robot", sans-serif;
+    margin-bottom: 175px;
+}
+.ingredients h1 h2 h3 {
+    margin-left: 200px;
+}
+ol {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    width: auto;
+
+}
+ul {
+    margin-left: 150px;
+    padding-right: 100px;
+    width: 500px;
+    text-align: left;
+    
+}
+li {
+    color: rgba(0, 0, 0, 0.652);
+}
+.ing {
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.ing1 {
+    text-align: left;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.timing {
+    margin-top: 30px;
+}
+footer {
+    background-color: rgb(231, 167, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+    padding-inline: 120px;
+    font-family: "Roboto", sans-serif;
+    font-size: .7rem;
+}
+.flink-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 30px;
+}
+.circa {
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
